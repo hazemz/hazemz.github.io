@@ -2,6 +2,9 @@ body,
 html {
     width: 100%;
     height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
 
 body,
@@ -17,6 +20,7 @@ h3,
 
     text-align: center;
     background-color: #110a0a;
+
 }
 
 .message {
@@ -40,8 +44,8 @@ h3 {
 }
 
 img.logo {
-	height: 25%;
-	width: 25%;
+	height: 30%;
+	width: 30%;
 	}
 
 .footer, a, a:link{
