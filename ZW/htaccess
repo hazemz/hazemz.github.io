@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^zureikatweekly\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.zureikatweekly\.com$
+RewriteRule ^/?$ "https\:\/\/www\.zureikatweekly\.com\/ZW\/index\.html" [R=301,L]
